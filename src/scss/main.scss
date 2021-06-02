@@ -4,12 +4,17 @@ body {
   justify-content: center;
 }
 
+.main-wrapper {
+  border: 2px solid rgb(215, 148, 221);
+  width: 50vw;
+}
+
 .app__header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  width: 1000px;
-  min-width: 950px;
+
+  border: 2px solid rgb(17, 0, 255);
 }
 
 .menu__avatar {
@@ -19,10 +24,29 @@ body {
   border: 2px solid black;
 }
 
-.profile {
+.menu__icons {
+  display: flex;
+  flex-direction: row;
   border: 2px solid red;
-  .MuiAvatar-root .MuiAvatar-circle {
-    background: black;
-    border: 2px solid rgb(0, 4, 255);
-  }
+}
+
+.profile {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/* Main Channel section */
+
+.MainChannelInfo__wrap {
+  border: 2px solid lightcoral;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-avatar {
+  border: 2px solid rgb(255, 0, 0);
+  width: 320px;
+}
+
+.channel__info {
+  border: 2px solid rgb(128, 148, 240);
 }

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faCompass } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import Avatar from "@material-ui/core/Avatar";
 function TopMenu() {
   return (
@@ -13,11 +17,19 @@ function TopMenu() {
       <div className="input-search">
         <input type="search" id="site-search" placeholder="🔍 Search"></input>
       </div>
-      <div className="menu-icons">
-        <div className="home">{/* <FontAwesomeIcon icon="user" /> */}</div>
-        <div className="inbox"></div>
-        <div className="explore"></div>
-        <div className="activity"></div>
+      <div className="menu__icons">
+        <div className="home">
+          <FontAwesomeIcon icon={faHome} size="2x" />
+        </div>
+        <div className="inbox">
+          <FontAwesomeIcon icon={faPaperPlane} size="2x" />
+        </div>
+        <div className="explore">
+          <FontAwesomeIcon icon={faCompass} size="2x" />
+        </div>
+        <div className="activity">
+          <FontAwesomeIcon icon={faHeart} size="2x" />
+        </div>
         <div className="profile">
           <Avatar
             alt="bla"
