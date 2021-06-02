@@ -1,3 +1,28 @@
 body {
   background: lightblue;
+  display: flex;
+  justify-content: center;
+}
+
+.app__header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1000px;
+  min-width: 950px;
+}
+
+.menu__avatar {
+  object-fit: contain;
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+}
+
+.profile {
+  border: 2px solid red;
+  .MuiAvatar-root .MuiAvatar-circle {
+    background: black;
+    border: 2px solid rgb(0, 4, 255);
+  }
 }
