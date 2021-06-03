@@ -35,9 +35,11 @@ function MainChannelInfo() {
           </span>
         </div>
         <div className="channel__text">
-          <p>blalalala ksadnakls dkasdjals</p>
-          <p>blalalala ksadnakls dkasdjals</p>
-          <p>blalalala ksadnakls dkasdjals</p>
+          <p>Spotlighting athlete* and 👟 stories</p>
+          <p>#BlackLivesMatter and #StopAsianHate</p>
+          <p>
+            <strong>linkin.bio/nike</strong>
+          </p>
         </div>
       </div>
     </div>
