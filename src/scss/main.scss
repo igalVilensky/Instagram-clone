@@ -15,6 +15,10 @@ body {
   width: 50vw;
 }
 
+.fixed {
+  /* position: fixed; */
+}
+
 .app__header {
   display: flex;
   justify-content: space-between;
@@ -39,8 +43,8 @@ body {
 }
 
 .input-search {
-  position: absolute;
-  right: 380px;
+  position: relative;
+  left: 65px;
   /* top: 4px; */
   outline: none;
   background: black;
@@ -210,7 +214,8 @@ input:focus {
 .posts__items__wrap {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+
   /* background: red;
   border: 2px solid black; */
   /* width: 50vw; */
@@ -221,8 +226,39 @@ input:focus {
   height: 295px;
   margin-right: 36px;
   margin-bottom: 36px;
+  background-color: black;
   img {
     width: 295px;
     height: 295px;
+    position: relative;
   }
+  img:hover {
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  .heart {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 160px;
+    left: 70px;
+    user-select: none;
+  }
+}
+
+.post__image__wrap :hover > .hover {
+  opacity: 100;
+  color: red;
+}
+
+.post__item__likes__counter {
+  position: relative;
+  color: #fff;
+  bottom: 165px;
+  left: 75px;
+  user-select: none;
+  opacity: 0;
+}
+
+.post__item__likes__counter:hover {
 }
