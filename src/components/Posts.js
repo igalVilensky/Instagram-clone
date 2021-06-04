@@ -25,9 +25,6 @@ function Posts() {
           <h2>TAGGED</h2>
         </li>
       </ul>
-      <div posts__items__wrap>
-        <div></div>
-      </div>
     </div>
   );
 }

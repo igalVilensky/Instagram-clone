@@ -3,6 +3,7 @@ import "./scss/main.scss";
 import TopMenu from "./components/TopMenu";
 import MainChannelInfo from "./components/MainChannelInfo";
 import Posts from "./components/Posts";
+import PostsImages from "./components/PostsImages";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <TopMenu />
       <MainChannelInfo />
       <Posts />
+      <PostsImages />
     </div>
   );
 }

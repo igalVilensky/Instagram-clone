@@ -26,6 +26,11 @@ body {
   /* background: chartreuse; */
 }
 
+.app__headerImage {
+  /* background: red; */
+  padding-top: 10px;
+}
+
 .menu__avatar {
   object-fit: contain;
   width: 10px;
@@ -62,7 +67,7 @@ input:focus {
     margin-left: 15px;
     color: #414141;
     svg {
-      font-size: 30px;
+      font-size: 25px;
     }
   }
 
@@ -159,7 +164,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: rgb(0, 0, 0); */
+  /*  background: rgb(0, 0, 0); */
   height: 50px;
 }
 
@@ -196,6 +201,28 @@ input:focus {
   position: absolute;
   width: 65px;
   height: 2px;
-  bottom: 35px;
+  bottom: 33.5px;
   background: #262626;
+}
+
+/* Posts */
+
+.posts__items__wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background: red;
+  border: 2px solid black; */
+  /* width: 50vw; */
+}
+
+.post__image__wrap {
+  width: 295px;
+  height: 295px;
+  margin-right: 36px;
+  margin-bottom: 36px;
+  img {
+    width: 295px;
+    height: 295px;
+  }
 }
