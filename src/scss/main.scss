@@ -237,28 +237,46 @@ input:focus {
     opacity: 0.6;
   }
   .heart {
-    font-size: 20px;
     color: rgb(255, 255, 255);
     position: relative;
-    bottom: 160px;
+    bottom: 165px;
     left: 70px;
     user-select: none;
+    font-size: 19px;
   }
 }
 
 .post__image__wrap :hover > .hover {
-  opacity: 100;
-  color: red;
 }
 
 .post__item__likes__counter {
   position: relative;
   color: #fff;
-  bottom: 165px;
+  bottom: 170px;
   left: 75px;
   user-select: none;
-  opacity: 0;
+  font-size: 16px;
+  margin-left: 3px;
 }
 
 .post__item__likes__counter:hover {
+}
+
+.comment {
+  margin-left: 40px;
+  font-size: 19px;
+  position: relative;
+  bottom: 495px;
+  left: 65px;
+  color: #fff;
+  transform: scaleX(-1);
+}
+
+.post__item__comments__counter {
+  margin-left: 8px;
+  font-size: 16px;
+  position: relative;
+  bottom: 500px;
+  left: 65px;
+  color: #fff;
 }

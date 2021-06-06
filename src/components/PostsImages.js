@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faComment, faHeart } from "@fortawesome/free-solid-svg-icons";
 function PostsImages() {
   return (
     <div>
@@ -14,6 +14,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -24,6 +28,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -33,6 +41,10 @@ function PostsImages() {
           <FontAwesomeIcon icon={faHeart} className="heart" />
           <span className="post__item__likes__counter">
             <strong>538k</strong>
+          </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
           </span>
         </div>
       </div>
@@ -46,6 +58,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -56,6 +72,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -65,6 +85,10 @@ function PostsImages() {
           <FontAwesomeIcon icon={faHeart} className="heart" />
           <span className="post__item__likes__counter">
             <strong>538k</strong>
+          </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
           </span>
         </div>
       </div>
@@ -78,6 +102,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -88,6 +116,10 @@ function PostsImages() {
           <span className="post__item__likes__counter">
             <strong>538k</strong>
           </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
+          </span>
         </div>
         <div className="post__image__wrap">
           <img
@@ -97,6 +129,10 @@ function PostsImages() {
           <FontAwesomeIcon icon={faHeart} className="heart hover" />
           <span className="post__item__likes__counter">
             <strong className="hover">538k</strong>
+          </span>
+          <FontAwesomeIcon icon={faComment} className="comment" />
+          <span className="post__item__comments__counter">
+            <strong>2,572</strong>
           </span>
         </div>
       </div>
