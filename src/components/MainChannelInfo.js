@@ -1,15 +1,19 @@
 import React from "react";
-import Avatar from "@material-ui/core/Avatar";
+/* import Avatar from "@material-ui/core/Avatar"; */
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEllipsisH } from "@fortawesome/free-solid-svg-icons";
 function MainChannelInfo() {
   return (
     <div className="MainChannelInfo__wrap">
       <div className="main-avatar">
-        <Avatar
+        {/* <Avatar
           alt="bla"
           src="https://pbs.twimg.com/profile_images/918502923965026306/dbcocGbL.jpg"
-        />
+        /> */}
+        <img
+          src="https://pbs.twimg.com/profile_images/918502923965026306/dbcocGbL.jpg"
+          alt="logo"
+        ></img>
       </div>
       <div className="channel__info">
         <div className="user__subscribe__settings">

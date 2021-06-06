@@ -99,7 +99,14 @@ input:focus {
 
 .main-avatar {
   /* border: 2px solid rgb(255, 0, 0); */
-  width: 320px;
+  width: 330px;
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 70px;
+    margin-top: 30px;
+  }
 }
 
 .channel__info {
@@ -271,7 +278,7 @@ input:focus {
   margin-left: 40px;
   font-size: 19px;
   position: relative;
-  bottom: 495px;
+  bottom: 165px;
   left: 65px;
   color: #fff;
   transform: scaleX(-1);
@@ -281,7 +288,7 @@ input:focus {
   margin-left: 8px;
   font-size: 16px;
   position: relative;
-  bottom: 500px;
+  bottom: 170px;
   left: 65px;
   color: #fff;
 }
