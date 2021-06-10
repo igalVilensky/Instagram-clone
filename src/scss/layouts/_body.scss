@@ -87,11 +87,17 @@ input:focus {
     color: #414141;
     svg {
       font-size: 25px;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
   div:nth-child(5) {
     margin-left: 5px;
+    &:hover {
+      cursor: pointer;
+    }
   }
   /* border: 2px solid red; */
 }
