@@ -14,6 +14,7 @@
 body {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .main-wrapper {
@@ -348,5 +349,56 @@ input:focus {
   cursor: pointer;
   &:hover {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background: red;
+  }
+  .app__header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    z-index: 1;
+  }
+  .app__headerImage {
+    padding-top: 10px;
+    position: relative;
+    left: 0;
+    cursor: pointer;
+  }
+  .menu__icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background: chartreuse; */
+    position: relative;
+    right: 0;
+    div {
+      margin-left: 15px;
+      color: #414141;
+      svg {
+        font-size: 25px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    div:nth-child(5) {
+      margin-left: 5px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
