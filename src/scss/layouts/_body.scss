@@ -246,13 +246,12 @@ input:focus {
   }
   img:hover {
     cursor: pointer;
-    opacity: 0.6;
   }
   .heart {
     color: rgb(255, 255, 255);
     position: relative;
-    bottom: 165px;
-    left: 70px;
+    /* bottom: 165px;
+    left: 70px; */
     user-select: none;
     font-size: 19px;
   }
@@ -264,8 +263,8 @@ input:focus {
 .post__item__likes__counter {
   position: relative;
   color: #fff;
-  bottom: 170px;
-  left: 75px;
+  /* bottom: 170px;
+  left: 75px; */
   user-select: none;
   font-size: 16px;
   margin-left: 3px;
@@ -277,9 +276,9 @@ input:focus {
 .comment {
   margin-left: 40px;
   font-size: 19px;
-  position: relative;
+  /*  position: relative;
   bottom: 165px;
-  left: 65px;
+  left: 65px; */
   color: #fff;
   transform: scaleX(-1);
 }
@@ -287,8 +286,48 @@ input:focus {
 .post__item__comments__counter {
   margin-left: 8px;
   font-size: 16px;
-  position: relative;
+  /*  position: relative;
   bottom: 170px;
-  left: 65px;
+  left: 65px; */
   color: #fff;
+}
+
+.main-wrap {
+  width: 295px;
+  height: 295px;
+  margin-right: 36px;
+  margin-bottom: 36px;
+
+  img {
+    width: 295px;
+    height: 295px;
+    position: relative;
+  }
+  img:hover {
+    cursor: pointer;
+  }
+  .heart {
+    color: rgb(255, 255, 255);
+    /* position: relative;
+    bottom: 165px;
+    left: 70px; */
+    user-select: none;
+    font-size: 19px;
+  }
+}
+
+.second-div {
+  width: 295px;
+  height: 295px;
+  position: relative;
+  bottom: 300px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    opacity: 1;
+  }
 }
