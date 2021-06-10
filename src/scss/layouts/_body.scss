@@ -18,6 +18,8 @@ body {
 
 .main-wrapper {
   width: 50vw;
+  position: relative;
+  top: 50px;
 }
 
 .fixed {
@@ -30,13 +32,20 @@ body {
   flex-direction: row;
   align-items: center;
   border-bottom: 1px solid #dbdbdb;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
   height: 50px;
+  width: 100vw;
+  z-index: 1;
 }
 
 .app__headerImage {
   /* background: red; */
   padding-top: 10px;
+  position: relative;
+  left: 25%;
 }
 
 .menu__avatar {
@@ -71,6 +80,8 @@ input:focus {
   flex-direction: row;
   align-items: center;
   /* background: chartreuse; */
+  position: relative;
+  right: 24%;
   div {
     margin-left: 15px;
     color: #414141;
@@ -180,7 +191,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  z-index: 99;
   height: 50px;
 }
 
