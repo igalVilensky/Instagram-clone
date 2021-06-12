@@ -32,10 +32,14 @@ function TopMenu() {
             <FontAwesomeIcon icon={faHeart} size="2x" />
           </div>
           <div className="profile">
-            <Avatar
+            {/* <Avatar
               alt="bla"
               src="https://pbs.twimg.com/profile_images/918502923965026306/dbcocGbL.jpg"
-            />
+            /> */}
+            <img
+              src="https://pbs.twimg.com/profile_images/918502923965026306/dbcocGbL.jpg"
+              alt="logo"
+            ></img>
           </div>
         </div>
       </div>
