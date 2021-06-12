@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "title": "city",
+    "likes": 81,
+    "comments": 553
+  },
+  {
+    "id": 1,
+    "title": "city1",
+    "likes": 281,
+    "comments": 553
+  },
+  {
+    "id": 2,
+    "title": "city2",
+    "likes": 20331,
+    "comments": 2553
+  },
+  {
+    "id": 3,
+    "title": "city3",
+    "likes": 662081,
+    "comments": 753
+  },
+  {
+    "id": 4,
+    "title": "city4",
+    "likes": 25081,
+    "comments": 5543
+  },
+  {
+    "id": 5,
+    "title": "city5",
+    "likes": 2081,
+    "comments": 5653
+  },
+  {
+    "id": 6,
+    "title": "city6",
+    "likes": 2081,
+    "comments": 553
+  },
+  {
+    "id": 7,
+    "title": "city7",
+    "likes": 2081,
+    "comments": 553
+  },
+  {
+    "id": 8,
+    "title": "city8",
+    "likes": 2081,
+    "comments": 553
+  },
+  {
+    "id": 9,
+    "title": "city9",
+    "likes": 2081,
+    "comments": 553
+  }
+]
