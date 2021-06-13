@@ -83,7 +83,7 @@ input:focus {
   align-items: center;
   /* background: chartreuse; */
   position: relative;
-  right: 518px;
+  right: 500px;
   div {
     margin-left: 15px;
     color: #414141;
@@ -216,7 +216,7 @@ input:focus {
   align-items: center;
   z-index: 99;
   height: 50px;
-  width: 935px;
+  width: 50vw;
 }
 
 .posts__menu__list {
@@ -266,7 +266,7 @@ input:focus {
 
   /*  background: red;
   border: 2px solid black; */
-  width: 935px;
+  width: 50vw;
 }
 
 .post__image__wrap {
@@ -369,7 +369,40 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1740px) {
+  .menu__icons {
+    right: 20%;
+    div {
+      margin-left: 15px;
+      color: #414141;
+      svg {
+        font-size: 25px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+
+    div:nth-child(5) {
+      margin-left: 5px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .posts__wrap {
+    width: 60vw;
+  }
+  .posts__items__wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 1200px) {
   body {
     /* background: red; */
   }
@@ -390,7 +423,7 @@ input:focus {
   .app__headerImage {
     padding-top: 10px;
     position: relative;
-    left: 0;
+    /* left: 10%; */
     cursor: pointer;
   }
   .menu__icons {
