@@ -38,25 +38,25 @@
   {
     "id": 6,
     "title": "city6",
-    "likes": 2081,
-    "comments": 553
+    "likes": 547,
+    "comments": 11
   },
   {
     "id": 7,
     "title": "city7",
-    "likes": 2081,
-    "comments": 553
+    "likes": 578,
+    "comments": 544
   },
   {
     "id": 8,
     "title": "city8",
-    "likes": 2081,
-    "comments": 553
+    "likes": 20,
+    "comments": 369
   },
   {
     "id": 9,
     "title": "city9",
-    "likes": 2081,
+    "likes": 4481,
     "comments": 553
   }
 ]
